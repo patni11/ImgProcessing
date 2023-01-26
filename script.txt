@@ -1,0 +1,19 @@
+load res/1.jpg monkey
+sharpen monkey smonkey
+sharpen smonkey ssmonkey
+blur monkey bmonkey
+blur bmonkey bbmonkey
+save res/bbmonkey.jpeg bbmonkey
+save res/ssmonkey.jpeg ssmonkey
+greyscale ssmonkey gssmonkey
+greyscale monkey gmonkey
+sepia ssmonkey ssSmonkey
+sepia gmonkey gSmonkey
+mosaic 2000 monkey m2000Monkey
+mosaic 10000 monkey m10000Monkey
+save res/gssmonkey.jpeg gssmonkey
+save res/gmonkey.jpeg gmonkey
+save res/ssSmonkey.jpeg ssSmonkey
+save res/gSmonkey.jpeg gSmonkey
+save res/m2000Monkey.jpeg m2000Monkey
+save res/m10000Monkey.jpeg m10000Monkey
